@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 extension UIViewController {
     func showAlert(withTitle title: String, message: String,_ buttonText: String = "OK") {
@@ -14,6 +15,13 @@ extension UIViewController {
             alertController.addAction(UIAlertAction(title: buttonText, style: .default))
             self.present(alertController, animated: true)
         }
+    }
+}
+
+
+extension AVPlayer {
+    var isPlaying: Bool {
+        return rate != 0 && error == nil
     }
 }
 

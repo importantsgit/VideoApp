@@ -16,6 +16,7 @@
 		7B8D35ED29F266970090379E /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D35EC29F266970090379E /* Consts.swift */; };
 		7B8D35EF29F267250090379E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D35EE29F267250090379E /* Extension.swift */; };
 		7B8D35F329F26AF10090379E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D35F229F26AF10090379E /* VideoView.swift */; };
+		7B8D35F529F288B00090379E /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D35F429F288B00090379E /* DeleteViewController.swift */; };
 		BE7B64AE4D03FC77113ACD79 /* Pods_VideoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D280D976E402AFDE2D2FE6 /* Pods_VideoApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		7B8D35EC29F266970090379E /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
 		7B8D35EE29F267250090379E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		7B8D35F229F26AF10090379E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		7B8D35F429F288B00090379E /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
 		9E4271DAE6F941447CEFB993 /* Pods-VideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.debug.xcconfig"; path = "Target Support Files/Pods-VideoApp/Pods-VideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F1D280D976E402AFDE2D2FE6 /* Pods_VideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA67FF942928750009C378A /* Pods-VideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.release.xcconfig"; path = "Target Support Files/Pods-VideoApp/Pods-VideoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				7B8D35EE29F267250090379E /* Extension.swift */,
 				7B8D35DC29F2630B0090379E /* Assets.xcassets */,
 				7B8D35E129F2630B0090379E /* Info.plist */,
+				7B8D35F429F288B00090379E /* DeleteViewController.swift */,
 			);
 			path = VideoApp;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				7B8D35F329F26AF10090379E /* VideoView.swift in Sources */,
 				7B8D35D429F2630A0090379E /* AppDelegate.swift in Sources */,
 				7B8D35D629F2630A0090379E /* SceneDelegate.swift in Sources */,
+				7B8D35F529F288B00090379E /* DeleteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
